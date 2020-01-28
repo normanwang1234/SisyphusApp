@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="93d-cO-7er">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Videos-->
+        <scene sceneID="n3g-iy-4ui">
+            <objects>
+                <tableViewController id="rZq-iH-iod" customClass="VideoTableViewController" customModule="Sisyphus" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="dGn-FK-42E">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="sectionIndexColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="sectionIndexBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="VideoCell" rowHeight="250" id="DAx-pa-hzP" customClass="VideoTableViewCell" customModule="Sisyphus" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="414" height="250"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="DAx-pa-hzP" id="TZ1-80-iIJ">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="250"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="video1" translatesAutoresizingMaskIntoConstraints="NO" id="cIs-4b-nSe">
+                                            <rect key="frame" x="36" y="27" width="342" height="204"/>
+                                            <accessibility key="accessibilityConfiguration">
+                                                <accessibilityTraits key="traits" button="YES"/>
+                                            </accessibility>
+                                        </imageView>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="play.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="4ik-IH-p39">
+                                            <rect key="frame" x="40" y="171.5" width="50" height="59"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="tintColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="50" id="FfD-m4-KbR"/>
+                                                <constraint firstAttribute="width" constant="50" id="xRA-hc-270"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Unbroken - Motivational Video" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gir-eZ-Eeg">
+                                            <rect key="frame" x="93" y="189.5" width="276.5" height="26.5"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                            <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="cIs-4b-nSe" firstAttribute="top" secondItem="TZ1-80-iIJ" secondAttribute="topMargin" constant="16" id="2EB-tj-Hh6"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="gir-eZ-Eeg" secondAttribute="bottom" constant="23" id="7Ej-5v-SxU"/>
+                                        <constraint firstItem="4ik-IH-p39" firstAttribute="top" secondItem="TZ1-80-iIJ" secondAttribute="topMargin" constant="160" id="WVY-pL-TGs"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="cIs-4b-nSe" secondAttribute="trailing" constant="16" id="bzJ-TC-NB0"/>
+                                        <constraint firstItem="4ik-IH-p39" firstAttribute="leading" secondItem="TZ1-80-iIJ" secondAttribute="leadingMargin" constant="20" id="cNa-yO-OxR"/>
+                                        <constraint firstItem="cIs-4b-nSe" firstAttribute="leading" secondItem="TZ1-80-iIJ" secondAttribute="leadingMargin" constant="16" id="e2J-10-AL0"/>
+                                        <constraint firstItem="gir-eZ-Eeg" firstAttribute="leading" secondItem="4ik-IH-p39" secondAttribute="trailing" constant="3" id="gQ9-kY-SYq"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="4ik-IH-p39" secondAttribute="bottom" constant="8" id="rNX-So-XXU"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="cIs-4b-nSe" secondAttribute="bottom" constant="8" id="z3s-Kn-nzc"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="thumbNailImage" destination="cIs-4b-nSe" id="dVZ-2u-WXR"/>
+                                    <outlet property="videoLabel" destination="gir-eZ-Eeg" id="EFa-9A-c9S"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="rZq-iH-iod" id="ab0-Hn-ABj"/>
+                            <outlet property="delegate" destination="rZq-iH-iod" id="le3-J5-NeJ"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Videos" id="Y64-4z-xxT"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jib-cN-Fe1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="730.43478260869574" y="-1327.2321428571429"/>
+        </scene>
+        <!--Videos-->
+        <scene sceneID="NbX-G1-Qa4">
+            <objects>
+                <navigationController id="93d-cO-7er" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Videos" image="video.fill" catalog="system" id="UP4-iC-2aD"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="mYK-nQ-4vq">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="35"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="textShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="textShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="rZq-iH-iod" kind="relationship" relationship="rootViewController" id="fIL-Ly-PJj"/>
+                    </connections>
+                </navigationController>
+                <navigationItem title="Videos" id="sW4-Lb-x65"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="n9C-d8-957" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-184" y="-1327"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="play.circle.fill" catalog="system" width="64" height="60"/>
+        <image name="video.fill" catalog="system" width="64" height="40"/>
+        <image name="video1" width="320" height="180"/>
+    </resources>
+</document>
