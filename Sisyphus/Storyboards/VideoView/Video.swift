@@ -16,7 +16,7 @@ struct Video
     static func fetchVideos() -> [Video]
     {
         let v1 = Video(videoFileName: "Unbroken", thumbnailFileName: "video1")
-        let v2 = Video(videoFileName: "Failure", thumbnailFileName: "video2")
+        let v2 = Video(videoFileName: "Why Do We Fall", thumbnailFileName: "video2")
         let v3 = Video(videoFileName: "Dream", thumbnailFileName: "video3")
         let v4 = Video(videoFileName: "Contenders", thumbnailFileName: "video4")
         let v5 = Video(videoFileName: "No Excuses", thumbnailFileName: "video5")

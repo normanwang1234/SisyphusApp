@@ -11,7 +11,6 @@
 		9460CF7723E01F1C00E3D4CD /* Contenders.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9460CF7223E01F1700E3D4CD /* Contenders.mp4 */; };
 		9460CF7823E01F1C00E3D4CD /* Dream.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9460CF7323E01F1900E3D4CD /* Dream.mp4 */; };
 		9460CF7923E01F1C00E3D4CD /* No Excuses.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9460CF7423E01F1A00E3D4CD /* No Excuses.mp4 */; };
-		9460CF7A23E01F1C00E3D4CD /* Failure.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9460CF7523E01F1B00E3D4CD /* Failure.mp4 */; };
 		9460CF7B23E01F1C00E3D4CD /* Unbroken.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9460CF7623E01F1C00E3D4CD /* Unbroken.mp4 */; };
 		947C8F7323DF89F800134220 /* QuotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947C8F7223DF89F800134220 /* QuotesViewController.swift */; };
 		947C8F7623DF8D0F00134220 /* QuoteCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947C8F7523DF8D0F00134220 /* QuoteCollectionViewCell.swift */; };
@@ -23,6 +22,9 @@
 		947C8F8423DFFEED00134220 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947C8F8323DFFEED00134220 /* ViewModel.swift */; };
 		94B3D04F23DE11010026E456 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B3D04E23DE11010026E456 /* Video.swift */; };
 		94B3D05923DE1F250026E456 /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B3D05823DE1F250026E456 /* VideoTableViewCell.swift */; };
+		94C982CC23E025250001091B /* Why Do We Fall.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 94C982CB23E025250001091B /* Why Do We Fall.mp4 */; };
+		94C982D123E0C5850001091B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C982D023E0C5850001091B /* HomeViewController.swift */; };
+		94C982D323E0E1400001091B /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C982D223E0E1400001091B /* HomeCell.swift */; };
 		94CFCC1423DD216A0059C06A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CFCC1323DD216A0059C06A /* AppDelegate.swift */; };
 		94CFCC1623DD216A0059C06A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CFCC1523DD216A0059C06A /* SceneDelegate.swift */; };
 		94CFCC1B23DD216A0059C06A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94CFCC1923DD216A0059C06A /* Main.storyboard */; };
@@ -33,7 +35,6 @@
 		94DF1C1823DD34DE00C6D8B4 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94DF1C1723DD34DE00C6D8B4 /* Home.storyboard */; };
 		94DF1C1A23DD34F400C6D8B4 /* Quotes.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94DF1C1923DD34F400C6D8B4 /* Quotes.storyboard */; };
 		94DF1C1C23DD34FC00C6D8B4 /* Videos.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94DF1C1B23DD34FC00C6D8B4 /* Videos.storyboard */; };
-		94DF1C1E23DD350900C6D8B4 /* Entries.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94DF1C1D23DD350900C6D8B4 /* Entries.storyboard */; };
 		94E7ABE123DF656700731836 /* VideoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E7ABE023DF656700731836 /* VideoTableViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -59,10 +60,9 @@
 		9460CF7223E01F1700E3D4CD /* Contenders.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Contenders.mp4; sourceTree = "<group>"; };
 		9460CF7323E01F1900E3D4CD /* Dream.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Dream.mp4; sourceTree = "<group>"; };
 		9460CF7423E01F1A00E3D4CD /* No Excuses.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "No Excuses.mp4"; sourceTree = "<group>"; };
-		9460CF7523E01F1B00E3D4CD /* Failure.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Failure.mp4; sourceTree = "<group>"; };
 		9460CF7623E01F1C00E3D4CD /* Unbroken.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Unbroken.mp4; sourceTree = "<group>"; };
 		947C8F7223DF89F800134220 /* QuotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesViewController.swift; sourceTree = "<group>"; };
-		947C8F7523DF8D0F00134220 /* QuoteCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteCollectionViewCell.swift; sourceTree = "<group>"; };
+		947C8F7523DF8D0F00134220 /* QuoteCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = QuoteCollectionViewCell.swift; path = ../../Views/QuoteCollectionViewCell.swift; sourceTree = "<group>"; };
 		947C8F7723DFDF4100134220 /* PinterestLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestLayout.swift; sourceTree = "<group>"; };
 		947C8F7A23DFF53900134220 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		947C8F7C23DFF7C100134220 /* UnsplashImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashImage.swift; sourceTree = "<group>"; };
@@ -71,6 +71,9 @@
 		947C8F8323DFFEED00134220 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		94B3D04E23DE11010026E456 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		94B3D05823DE1F250026E456 /* VideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
+		94C982CB23E025250001091B /* Why Do We Fall.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Why Do We Fall.mp4"; sourceTree = "<group>"; };
+		94C982D023E0C5850001091B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		94C982D223E0E1400001091B /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
 		94CFCC1023DD216A0059C06A /* Sisyphus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sisyphus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94CFCC1323DD216A0059C06A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94CFCC1523DD216A0059C06A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -87,7 +90,6 @@
 		94DF1C1723DD34DE00C6D8B4 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		94DF1C1923DD34F400C6D8B4 /* Quotes.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Quotes.storyboard; sourceTree = "<group>"; };
 		94DF1C1B23DD34FC00C6D8B4 /* Videos.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Videos.storyboard; sourceTree = "<group>"; };
-		94DF1C1D23DD350900C6D8B4 /* Entries.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Entries.storyboard; sourceTree = "<group>"; };
 		94E7ABE023DF656700731836 /* VideoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -119,9 +121,9 @@
 		946628D023DE2DF400550EE1 /* VideoAssets */ = {
 			isa = PBXGroup;
 			children = (
+				94C982CB23E025250001091B /* Why Do We Fall.mp4 */,
 				9460CF7223E01F1700E3D4CD /* Contenders.mp4 */,
 				9460CF7323E01F1900E3D4CD /* Dream.mp4 */,
-				9460CF7523E01F1B00E3D4CD /* Failure.mp4 */,
 				9460CF7423E01F1A00E3D4CD /* No Excuses.mp4 */,
 				9460CF7623E01F1C00E3D4CD /* Unbroken.mp4 */,
 			);
@@ -131,7 +133,6 @@
 		947C8F7423DF8CE100134220 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				947C8F7523DF8D0F00134220 /* QuoteCollectionViewCell.swift */,
 				947C8F7723DFDF4100134220 /* PinterestLayout.swift */,
 			);
 			path = Views;
@@ -156,29 +157,25 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
-		94B3D05A23DE1F570026E456 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				94E7ABE023DF656700731836 /* VideoTableViewController.swift */,
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		94B3D05B23DE1F660026E456 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				94B3D04E23DE11010026E456 /* Video.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		94B3D05C23DE20870026E456 /* VideoView */ = {
 			isa = PBXGroup;
 			children = (
+				94B3D04E23DE11010026E456 /* Video.swift */,
+				94E7ABE023DF656700731836 /* VideoTableViewController.swift */,
 				94DF1C1B23DD34FC00C6D8B4 /* Videos.storyboard */,
 				94B3D05823DE1F250026E456 /* VideoTableViewCell.swift */,
 			);
 			path = VideoView;
+			sourceTree = "<group>";
+		};
+		94C982CF23E0C5080001091B /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				94DF1C1723DD34DE00C6D8B4 /* Home.storyboard */,
+				94C982D023E0C5850001091B /* HomeViewController.swift */,
+				94C982D223E0E1400001091B /* HomeCell.swift */,
+			);
+			path = HomeView;
 			sourceTree = "<group>";
 		};
 		94CFCC0723DD216A0059C06A = {
@@ -209,8 +206,6 @@
 				947C8F7923DFF52900134220 /* Networking */,
 				947C8F7423DF8CE100134220 /* Views */,
 				946628D023DE2DF400550EE1 /* VideoAssets */,
-				94B3D05B23DE1F660026E456 /* Model */,
-				94B3D05A23DE1F570026E456 /* Controllers */,
 				94CFCC1923DD216A0059C06A /* Main.storyboard */,
 				94DF1C1623DD34A900C6D8B4 /* Storyboards */,
 				94CFCC1323DD216A0059C06A /* AppDelegate.swift */,
@@ -244,9 +239,8 @@
 			isa = PBXGroup;
 			children = (
 				94E7ABE923DF71FC00731836 /* QuoteView */,
-				94DF1C1723DD34DE00C6D8B4 /* Home.storyboard */,
+				94C982CF23E0C5080001091B /* HomeView */,
 				94B3D05C23DE20870026E456 /* VideoView */,
-				94DF1C1D23DD350900C6D8B4 /* Entries.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -254,6 +248,7 @@
 		94E7ABE923DF71FC00731836 /* QuoteView */ = {
 			isa = PBXGroup;
 			children = (
+				947C8F7523DF8D0F00134220 /* QuoteCollectionViewCell.swift */,
 				94DF1C1923DD34F400C6D8B4 /* Quotes.storyboard */,
 				947C8F7223DF89F800134220 /* QuotesViewController.swift */,
 			);
@@ -369,9 +364,8 @@
 				94DF1C1823DD34DE00C6D8B4 /* Home.storyboard in Resources */,
 				9460CF7B23E01F1C00E3D4CD /* Unbroken.mp4 in Resources */,
 				9460CF7923E01F1C00E3D4CD /* No Excuses.mp4 in Resources */,
-				94DF1C1E23DD350900C6D8B4 /* Entries.storyboard in Resources */,
 				9460CF7723E01F1C00E3D4CD /* Contenders.mp4 in Resources */,
-				9460CF7A23E01F1C00E3D4CD /* Failure.mp4 in Resources */,
+				94C982CC23E025250001091B /* Why Do We Fall.mp4 in Resources */,
 				94CFCC1D23DD216D0059C06A /* Assets.xcassets in Resources */,
 				94CFCC1B23DD216A0059C06A /* Main.storyboard in Resources */,
 				94304D1723DD22C2009AACF7 /* Sisyphus.png in Resources */,
@@ -405,7 +399,9 @@
 				94CFCC1423DD216A0059C06A /* AppDelegate.swift in Sources */,
 				947C8F7B23DFF53900134220 /* APIClient.swift in Sources */,
 				94CFCC1623DD216A0059C06A /* SceneDelegate.swift in Sources */,
+				94C982D323E0E1400001091B /* HomeCell.swift in Sources */,
 				94E7ABE123DF656700731836 /* VideoTableViewController.swift in Sources */,
+				94C982D123E0C5850001091B /* HomeViewController.swift in Sources */,
 				947C8F8423DFFEED00134220 /* ViewModel.swift in Sources */,
 				947C8F7623DF8D0F00134220 /* QuoteCollectionViewCell.swift in Sources */,
 				947C8F7823DFDF4100134220 /* PinterestLayout.swift in Sources */,
@@ -587,6 +583,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z6XTLLP6G3;
 				INFOPLIST_FILE = Sisyphus/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -604,6 +601,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z6XTLLP6G3;
 				INFOPLIST_FILE = Sisyphus/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

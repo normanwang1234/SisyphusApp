@@ -22,14 +22,14 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vdg-8a-Io4">
                                         <rect key="frame" x="133" y="0.0" width="116" height="28"/>
                                         <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="24"/>
-                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <nil key="highlightedColor"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hope you're inspired." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B0h-V6-Fsu">
                                         <rect key="frame" x="87.5" y="36" width="207" height="23.5"/>
                                         <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="20"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </label>
                                     <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="kRr-bQ-8Ad">
                                         <rect key="frame" x="172.5" y="67.5" width="37" height="37"/>
@@ -44,7 +44,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewLayout key="collectionViewLayout" id="iBR-e2-Ieq" customClass="PinterestLayout" customModule="Sisyphus" customModuleProvider="target"/>
                                 <cells>
-                                    <collectionViewCell opaque="NO" multipleTouchEnabled="YES" contentMode="scaleAspectFill" reuseIdentifier="PhotoCell" translatesAutoresizingMaskIntoConstraints="NO" id="KGM-We-leK" customClass="QuoteCollectionViewCell" customModule="Sisyphus" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" multipleTouchEnabled="YES" contentMode="scaleAspectFit" reuseIdentifier="PhotoCell" translatesAutoresizingMaskIntoConstraints="NO" id="KGM-We-leK" customClass="QuoteCollectionViewCell" customModule="Sisyphus" customModuleProvider="target">
                                         <rect key="frame" x="2.5" y="0.0" width="409" height="478"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="dwm-al-mtr">
@@ -122,8 +122,8 @@
         <!--Inspiration-->
         <scene sceneID="Na0-Vz-GUr">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ppb-ca-Bwh" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Inspiration" image="quote.bubble.fill" catalog="system" id="Hb2-b1-tKf">
+                <navigationController id="ppb-ca-Bwh" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Inspiration" image="lightbulb.fill" catalog="system" id="Hb2-b1-tKf">
                         <color key="badgeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBarItem>
                     <toolbarItems/>
@@ -154,6 +154,6 @@
     </scenes>
     <resources>
         <image name="download" width="183" height="275"/>
-        <image name="quote.bubble.fill" catalog="system" width="64" height="54"/>
+        <image name="lightbulb.fill" catalog="system" width="56" height="64"/>
     </resources>
 </document>
